@@ -98,7 +98,7 @@
 
 **步骤 0**：安装 [Miniconda](https://docs.anaconda.com/miniconda/install/#quick-command-line-install)。
 
-**步骤 1**：创建一个名为 `rsmamba` 的虚拟环境，并激活它。
+**步骤 1**：创建一个名为 `rsrefseg` 的虚拟环境，并激活它。
 
 ```shell
 conda create -n rsrefseg python=3.11 -y
