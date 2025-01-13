@@ -122,7 +122,7 @@ conda install pytorch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 pytorch-cuda=
 pip install -U openmim
 mim install mmcv==2.2.0
 # or
-pip install mmcv==2.2.0 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2.4/index.html
+pip install mmcv==2.2.0 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2.3/index.html
 ```
 
 **Step 4**: Install other dependencies.
