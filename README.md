@@ -131,6 +131,17 @@ pip install mmcv==2.2.0 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2
 pip install modelindex ipdb ms-swift transformers peft modelscope accelerate qwen_vl_utils pycocotools -U
 ```
 
+
+**Step 5**: [Optional] Install DeepSpeed.
+
+If you want to use DeepSpeed to train models, you need to install DeepSpeed and uncomment the `DeepSpeed training config` in the Config file. The installation method for DeepSpeed can be found in the DeepSpeed official documentation.
+
+```shell
+pip install deepspeed
+```
+
+Note: DeepSpeed support on Windows is not yet complete, and we recommend using DeepSpeed on Linux systems. Windows systems can only use AMP training, and we recommend uncommenting the `AMP training config` in the Config file.
+
 </details>
 
 

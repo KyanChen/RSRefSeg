@@ -129,8 +129,18 @@ pip install mmcv==2.2.0 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2
 **步骤 4**：安装其他依赖项。
 
 ```shell
-pip install modelindex ipdb ms-swift transformers peft modelscope accelerate qwen_vl_utils pycocotools -U
+pip install modelindex ipdb ms-swift transformers peft modelscope accelerate qwen_vl_utils pycocotools ftfy prettytable -U
 ```
+
+**步骤 5**：[可选] 安装 DeepSpeed。
+
+如果您想使用 DeepSpeed 训练模型，您需要安装 DeepSpeed，并把Config文件中的 `DeepSpeed training config`注释打开。DeepSpeed 的安装方法可以参考 DeepSpeed 官方文档。
+```shell
+pip install deepspeed
+```
+
+注解：Windows 系统下对 DeepSpeed 的支持尚未完善，我们建议您在 Linux 系统下使用 DeepSpeed。Windows 系统只能使用AMP训练，建议您在Config文件中的 `AMP training config`注释打开。
+
 
 </details>
 
