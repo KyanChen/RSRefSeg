@@ -128,7 +128,7 @@ pip install mmcv==2.2.0 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2
 **Step 4**: Install other dependencies.
 
 ```shell
-pip install modelindex ipdb ms-swift transformers peft modelscope accelerate qwen_vl_utils pycocotools -U
+pip install modelindex ipdb ms-swift transformers peft modelscope accelerate qwen_vl_utils pycocotools ftfy prettytable -U
 ```
 
 
