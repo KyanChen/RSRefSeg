@@ -83,7 +83,7 @@ If you find this project helpful, please give us a star ⭐️. Your support is 
 
 - Linux system, Windows is also supported
 - Python 3.10+, recommended to use 3.11
-- PyTorch 2.0 or higher, recommended to use 2.4
+- PyTorch 2.0 or higher, recommended to use 2.3
 - CUDA 11.7 or higher, recommended to use 12.1
 - MMCV 2.0 or higher, recommended to use 2.2
 
@@ -104,16 +104,16 @@ conda create -n rsrefseg python=3.11 -y
 conda activate rsrefseg
 ```
 
-**Step 2**: Install [PyTorch2.4.x](https://pytorch.org/get-started/previous-versions/).
+**Step 2**: Install [PyTorch2.3.x](https://pytorch.org/get-started/previous-versions/).
 
 Linux/Windows:
 
 ```shell
-pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu121
+pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu121
 ```
 or
 ```shell
-conda install pytorch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 pytorch-cuda=12.1 -c pytorch -c nvidia
+conda install pytorch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 pytorch-cuda=12.1 -c pytorch -c nvidia
 ```
 
 **Step 3**: Install [MMCV2.1.x](https://mmcv.readthedocs.io/en/latest/get_started/installation.html).
