@@ -14,7 +14,7 @@
     <span style="font-size: 20px; ">Homepage</span>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://arxiv.org/abs/xxxx">
+  <a href="https://arxiv.org/abs/2501.06809">
     <span style="font-size: 20px; ">arXiv</span>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
@@ -27,7 +27,7 @@
 
 [![GitHub stars](https://badgen.net/github/stars/KyanChen/RSRefSeg)](https://github.com/KyanChen/RSRefSeg)
 [![license](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
-[![arXiv](https://img.shields.io/badge/arXiv-2403.xx-b31b1b.svg)](https://arxiv.org/abs/2403.xxx)
+[![arXiv](https://img.shields.io/badge/arXiv-2501.06809-b31b1b.svg)](https://arxiv.org/abs/2501.06809)
 
 <br>
 <br>
@@ -41,7 +41,7 @@ English | [简体中文](README_zh-CN.md)
 
 ## Introduction
 
-This repository contains the code implementation for the paper [RSRefSeg: Referring Remote Sensing Image Segmentation with Foundation Models](https://arxiv.org/abs/2403.xxx), developed based on the [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) project.
+This repository contains the code implementation for the paper [RSRefSeg: Referring Remote Sensing Image Segmentation with Foundation Models](https://arxiv.org/abs/2501.06809), developed based on the [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) project.
 
 The current branch has been tested on Linux with PyTorch 2.x and CUDA 12.1, supports Python 3.10+, and can be compatible with most CUDA versions.
 
@@ -307,7 +307,7 @@ If you use the code or benchmarks from this project in your research, please cit
 @article{chen2025rsrefseg,
   title={RSRefSeg: Referring Remote Sensing Image Segmentation with Foundation Models},
   author={Chen, Keyan and Zhang, Jiafan and Liu, Chenyang and Zou, Zhengxia and Shi, Zhenwei},
-  journal={arXiv preprint arXiv:2501.xxxx},
+  journal={arXiv preprint arXiv:2501.06809},
   year={2025}
 }
 ```
