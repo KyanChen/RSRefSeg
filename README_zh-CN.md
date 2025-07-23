@@ -325,7 +325,7 @@ python demo/image_demo.py ${IMAGE_DIR}  configs_RSRefSeg/name_to_config.py --che
   year={2025}
 }
 
-@article{chen2025rsrefseg,
+@article{chen2025rsrefseg2,
   title={RSRefSeg 2: Decoupling Referring Remote Sensing Image Segmentation with Foundation Models},
   author={Chen, Keyan and Liu, Chenyang and Chen, Bowen and Zhang, Jiafan and Zou, Zhengxia and Shi, Zhenwei},
   journal={arXiv preprint arXiv:2507.06231},
