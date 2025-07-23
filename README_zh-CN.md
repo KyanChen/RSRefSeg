@@ -6,6 +6,13 @@
 <br>
 
 <div align="center">
+    <h2>
+        RSRefSeg 2: Decoupling Referring Remote Sensing Image Segmentation with Foundation Models
+    </h2>
+</div>
+<br>
+
+<div align="center">
   <img src="resources/RSRefSeg.png" width="800"/>
 </div>
 <br>
